@@ -16,12 +16,14 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 end the program
 
 ## Program:
+```
 Developed by: Shakthivel V
 RegisterNumber:24901278
 import numpy as np
 matrix=np.array([[4,2],[2,4]])
 e_values,e_vectors=np.linalg.eig(matrix)
 print("Eigen values are {} and Eigen Vectors are {}".format(e_values,e_vectors ))
+```
 ## Output:
 ![image 1](<Screenshot 2024-11-18 162327.png>)
 ## Result:
